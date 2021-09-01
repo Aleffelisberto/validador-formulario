@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Form validator</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form" class="form">
+            <h2>Registre-se conosco</h2>
+            <div class="form-control">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" placeholder="Usuário ou email">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Email">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Senha">
+                <small></small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirmar senha</label>
+                <input type="password" id="password2" placeholder="Confirmação da senha">
+                <small></small>
+            </div>
+            <button id="submit" type="submit">Cadastrar</button>
+        </form>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
